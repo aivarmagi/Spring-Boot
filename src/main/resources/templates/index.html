@@ -4,10 +4,23 @@
 
     <title>Amazon Books Project</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.5/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/3.3.5/css/bootstrap.min.css}" rel="stylesheet" media="screen" />
+
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js"
+            th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+
+    <link href="../static/css/style.css" th:href="@{css/style.css}" rel="stylesheet" media="screen"/>
+    <link href="../static/css/style.css" th:href="@{css/style.css}" rel="stylesheet" media="screen"/>
 </head>
 <body>
-<h1>Hello</h1>
-
-<h2>Fellow Book Fans!!!</h2>
+<div class="container">
+    <div class="jumbotron">
+        <img src="../static/images/NewBannerBOOTS_2.png" width="1000" th:src="@{images/NewBannerBOOTS_2.png}"/>
+            <h1>Hello</h1>
+            <h2>Fellow Book Fans!!!</h2>
+    </div>
+</div>
 </body>
 </html>
