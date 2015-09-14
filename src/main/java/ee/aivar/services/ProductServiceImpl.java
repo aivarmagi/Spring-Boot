@@ -3,7 +3,9 @@ package ee.aivar.services;
 import ee.aivar.domain.Product;
 import ee.aivar.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("productService")
 public class ProductServiceImpl implements ProductService {
 
 	private ProductRepository productRepository;
